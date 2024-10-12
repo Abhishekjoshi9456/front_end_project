@@ -1,0 +1,83 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: SF PRO DISPLAY;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    position: relative;
+    overflow: hidden;
+}
+#page1{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+#page1>nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    height: 7vh;
+    width: 50vw;
+    background-color: #000;
+    position: absolute; 
+    top: 0%;
+    left:50%;
+    transform: translateX(-50%);
+    color: #fff;
+}
+#page1>nav>button{
+    padding: 7px 20px;
+    border-radius: 50px;
+    border: none;    
+    background-color: #fff;
+}
+#page1>nav>h3{
+    font-weight: 400;
+}
+#page1>video{
+    height: 100%;
+    width: 50%;
+    object-fit: cover;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#page1-bottom{
+    height: 15%;
+    width: 25%;
+    /* background-color: green; */
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#page1-bottom>h3{
+    color: #dadada;
+    margin: 1vw;
+    font-weight: 300;
+    font-size: medium;
+    margin-bottom: 1vw;
+}
+#page1-bottom>img{
+    height: 10vh;
+    width: 10vw;
+    
+   
+}
+#page2{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+}
